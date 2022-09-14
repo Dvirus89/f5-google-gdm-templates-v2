@@ -6,6 +6,7 @@ gcloud deployment-manager deployments delete dvirthu5  --project xx-xx-xxx-xx-xx
 
 tail -f /var/log/restnoded/restnoded.log
 
+curl -su admin: http://localhost:8100/mgmt/shared/cloud-failover/declare | jq .
 curl -su admin: -X POST -d @cfe.json http://localhost:8100/mgmt/shared/cloud-failover/declare | jq .
 
 

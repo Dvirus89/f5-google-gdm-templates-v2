@@ -1,0 +1,23 @@
+{
+    "schemaVersion": "1.0.0",
+    "class": "Cloud_Failover",
+   "environment": "gcp",
+    "controls": {
+      "class": "Controls",
+      "logLevel": "silly"
+    },
+    "externalStorage": {
+      "scopingTags": {
+        "f5_cloud_failover_label": "bigip_high_availability_solution"
+      }
+    },
+    "failoverAddresses": {
+    "enabled": true,
+    "addressGroupDefinitions": [
+      {
+        "type": "aliasAddress",
+        "scopingAddress": "172.23.1.104/29"
+      }
+    ]
+    }
+}
