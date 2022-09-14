@@ -137,7 +137,7 @@ properties:
       - us-west1-a
       - us-west1-b
     description: Enter the zones where you want to deploy the application, for example 'us-west1-a' and 'us-west1-b'.
-    type: string
+    type: array
 
 outputs:
   properties:
