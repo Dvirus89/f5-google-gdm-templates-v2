@@ -17,3 +17,7 @@ tmsh create sys management-route mgmt_gw network 10.0.0.1/32 type interface
 tmsh create sys management-route mgmt_net network 10.0.0.0/24 gateway 10.0.0.1
 tmsh create sys management-route default gateway 10.0.0.1
 tmsh save sys config
+
+
+lspci -nn | grep -i eth #confirm vendor ID
+echo "device driver vendor_dev 1af4:1000 sock" >> /config/tmm_init.tcl
