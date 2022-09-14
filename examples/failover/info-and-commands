@@ -57,8 +57,8 @@ poa
 1.h ZONE!
 1.i uniquestring (short)
 
-2. apply workaround for routes
-
+2.a apply workaround for routes https://support.f5.com/csp/article/K85730674
+2.b apply workaround for network drivers https://support.f5.com/csp/article/K10142141
 3. create VS
 
 4. add alias to ext NIC
