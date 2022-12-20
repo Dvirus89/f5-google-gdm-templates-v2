@@ -54,7 +54,7 @@ extension_services:
           My_License:
             class: License
             licenseType: regKey
-            regKey: MLQVH-RGNBD-YSGVA-QOSWX-DEYZBXV  
+            regKey: OZGRG-EBXDC-FPOMT-GSNOR-HBJGKPJ
           admin:
             class: User
             userType: regular
